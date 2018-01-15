@@ -1,5 +1,5 @@
 <c3p0-config>
-    <name-config name="helloc3p0">
+    <named-config name="helloc3p0">
 
 
         <property name="user">root</property>
@@ -19,7 +19,7 @@
         <property name="maxStatements">20</property>
         <!--每个连接同时可以使用的Statement对象的个数-->
         <property name="maxStatementsPerConnection">5</property>
-    </name-config>
+    </named-config>
 
 
 </c3p0-config>
